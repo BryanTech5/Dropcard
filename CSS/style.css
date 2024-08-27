@@ -1,0 +1,237 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  
+}
+
+header{
+  width: 100%;
+  background-color: darkgreen;
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin: auto; */
+
+}
+nav{
+  width: 80%;
+  /* background-color: red; */
+  display: flex;
+}
+#logo{
+  /* background-color: aqua; */
+  width: 15%;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+}
+#navLinkCon{
+  /* background-color: blueviolet; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 15%;
+  width: 40%;
+}
+#navLinkCon li{
+  width: 25%;
+  /* background-color: chartreuse; */
+  margin: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#navLinkCon li a{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+#logSgnUpCon{
+  display: flex;
+  width: 20%;
+  /* background-color: chocolate; */
+  justify-content:space-around;
+  align-items: center;
+  margin-left: 10%;
+}
+#logSgnUpCon li{
+  width: 50%;
+  margin: 2px;
+  /* background-color: blueviolet; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#logSgnUpCon li a{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+#signup{
+  background-color: green;
+  border: 0 solid green;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+
+main{
+  width: 100%;
+}
+#section1{
+  width: 100%;
+  background-color: darkgreen;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin: auto;
+}
+#sec1-inner{
+  width: 80%;
+  /* background-color: yellow; */
+  margin: auto;
+  display: flex;
+}
+#sec1box1{
+  width: 50%;
+  /* background-color: violet; */
+  padding-top: 5%;
+  padding-left: 5%;
+}
+#sec1box2{
+  width: 50%;
+  /* background-color: tomato; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#sec1box2 img{
+  width: 80%;
+}
+#payment{
+  font-size: 70px;
+  color: white;
+  line-height: 65px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#grow{
+  color: lawngreen;
+}
+#business{
+  
+  border-bottom:3px solid lawngreen;
+}
+#paragraphtext{
+  color: white;
+  padding-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+#lawngreenbtn{
+  /* background-color: red; */
+  display: flex;
+  padding-top: 100px;
+}
+#lawngreenbtn h3{
+  width: 40%;
+  color: black;
+  background-color: lawngreen;
+  padding: 8px;
+  padding-top: 18px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+#lawngreenbtn img{
+  width: 50px;
+  margin-left: 20px;
+}
+#lawngreenbtn h4{
+  color: white;
+  padding-top: 15px;
+  margin-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+}
+/* #icons{
+  background-color: red;
+} */
+#icons p{
+  padding-top: 70px;
+  color: whitesmoke;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+}
+#icons ul{
+  padding-top: 20px;
+  /* background-color: green; */
+  display: flex;
+}
+/* #icons ul li{
+margin-left: 0;
+} */
+#icons ul li a{
+  color: rgb(168, 162, 162);
+  margin: 20px;
+  margin-left: 0;
+}
+#section2{
+  background-color: white;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+#section2-inner{
+  margin: auto;
+}
+#wrap-container{
+  /* background-color: blue; */
+  display: flex;
+  /* padding: 10px; */
+  justify-content: center;
+  align-items: center;
+}
+#wrap-content{
+  /* padding-top: 20px; */
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin: 80px;
+  
+  
+}
+#wrap-content h1{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  /* padding: 30px; */
+}
+#wrap-content .bk {
+  border: 1px solid whitesmoke;
+  width: 200px;
+  border-top: none;
+  border-bottom: none;
+}
+
+#wrap-content p{
+  font-size: 10px;
+  color: black;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../Newasi"
+		},
+		{
+			"path": "../JAVASCRIPT"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Dropcard"
+	}
+}
